@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS Pathology_Lab_db;
+USE Pathology_Lab_db;
+SELECT * FROM billing;
+SELECT * FROM company;
+SELECT * FROM date_dimension;
+SELECT * FROM department;
+SELECT * FROM doctor;
+SELECT * FROM interpretation;
+SELECT * FROM patients;
+SELECT * FROM sales;
+SELECT * FROM test;
+SELECT * FROM test_discount;
+SELECT * FROM test_procedure;
+SELECT * FROM test_record;
